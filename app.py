@@ -17,7 +17,11 @@ model = load_model()
 # UI
 # -------------------------------
 st.title("Weapon Detection (YOLOv10)")
-st.image("v.png", use_column_width=True)
+st.image(
+    "v.png",
+    caption="Weapon Detection using YOLOv10",
+    use_column_width=True
+)
 
 uploaded_file = st.file_uploader(
     "Upload an image",
