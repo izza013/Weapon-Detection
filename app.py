@@ -14,7 +14,7 @@ def load_model(weights_path):
     return model
 
 # Load the model (replace with the path to your model weights file)
-model = load_model('/content/drive/MyDrive/weaponFinal/yolov10_best.pt')
+model = load_model('yolov10_best.pt')
 
 # Function to preprocess image
 def preprocess_image(image):
