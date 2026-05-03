@@ -18,7 +18,7 @@ model = load_model()
 # -------------------------------
 st.title("Weapon Detection (YOLOv10)")
 st.image(
-    "vv.JPG",
+    "vv.jpg",
     caption="Weapon Detection using YOLOv10",
     use_column_width=True
 )
